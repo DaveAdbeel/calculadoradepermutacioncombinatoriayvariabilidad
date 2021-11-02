@@ -205,6 +205,12 @@ input[type="number"] {
 }
 
 @media (max-width: 1000px) {
+  .container_main_options {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 4rem;
+    margin-bottom: 20vh;
+  }
   .window {
     width: 500px;
     height: 500px;
@@ -212,12 +218,20 @@ input[type="number"] {
   .email{
     font-size: 1.5em;
   }
+  
 }
 
 @media (max-width: 550px) {
   body {
     font-size: 1em;
   }
+  .container_main_options {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 4rem;
+    margin-bottom: 20vh;
+  }
+
   .window {
     width: 400px;
     height: 400px;
@@ -241,6 +255,12 @@ input[type="number"] {
 }
 
 @media (max-width: 450px) {
+  .container_main_options {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 4rem;
+    margin-bottom: 20vh;
+  }
   .title-main {
     font-size: 1.3em;
   }
