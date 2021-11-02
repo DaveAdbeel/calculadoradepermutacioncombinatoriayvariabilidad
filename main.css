@@ -22,7 +22,8 @@ body {
   position: absolute;
   pointer-events: none;
   left: 0;
-  bottom: 0;
+  bottom:0;
+  color: #fff;
 }
 .title-main {
   font-family: "Roboto";
