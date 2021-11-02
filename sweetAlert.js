@@ -1,5 +1,5 @@
 Swal.fire({
-title: 'Hola soy David, esta pagina es experimental por favor enviarme un email por cualquier error, gracias',
+title: 'Hola soy David, esta pagina es experimental por favor enviarme un email por cualquier error, gracias: @davidadbeelgonzalez@gmail.com',
 background: '#111111',
 icon:'info', 
 width:'90%',
