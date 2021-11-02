@@ -20,10 +20,8 @@ body {
 
 .email-contact{
   position: absolute;
-  display: flex;
-  align-items: end;
-  width: 100%;
-  height: 100%;
+  bottom: 0;
+  left: 0;
   pointer-events: none;
 }
 .title-main {
