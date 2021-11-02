@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Calculadora P, V, C</title>
+    
+  </head>
+  <body>
+    <main class="container_main">
+      <div class="container_sub_main">
+      <div class="container_main_title">
+        <h1 class="title-main">ELIJE UNA DE LAS OPCIONES</h1>
+      </div>
+      <div class="container_main_options">
+        <button class="btn-options" id="btn-option-1" >Permutacion</button>
+        <button class="btn-options" id="btn-option-2" >Combinatoria</button>
+        <button class="btn-options" id="btn-option-3" >Variabilidad</button>
+        
+      </div>
+      <div class="email-contact"> <h1 class="email">@davidadbeelgonzalez@gmail.com </h1></div>
+    </div>
+    
+    </main>
+<!-- PERMUTACION -->
+    <div class="container" id="container_permutation">
+      <div class="window">
+        <div class="container_title">
+          <img src="arrow-back-outline.svg" class="arrow-back" id="arrow-back">
+          <h1 class="title">Permutacion</h1>
+        </div>
+        <div class="container_numbers_permutation">
+         <input type="number" id="input-permutation" class="input" placeholder="Numero a permutar" >
+        </div>
+        <button class="btn" id="btn-permutation">Calcular</button>
+
+        <div class="container_result">
+          <h1 id="result" class="result"></h1>
+        </div> 
+    </div>
+    </div>
+<!-- PERMUTACION -->
+
+
+
+
+
+<div class="container" id="container_combinatorial">
+  <div class="window">
+    <div class="container_title">
+      <img src="arrow-back-outline.svg" class="arrow-back" id="arrow_combinatorial">
+      <h1 class="title">Combinatoria</h1>
+    </div>
+    <div class="container_numbers_combinatorial">
+      <input type="number" class="input-combinatorial input" id="input-combinatorial_N" placeholder="Numero N" />
+      <input type="number" class="input-combinatorial input" id="input-combinatorial_K" placeholder="Numero K" />
+    </div>
+    <button class="btn" id="btn-combinatorial">Calcular</button>
+
+    <div class="container_result">
+      <h1 id="result_combinatorial" class="result"></h1>
+    </div> 
+</div>
+</div>
+
+
+
+
+<div class="container" id="container_variability">
+  <div class="window">
+    <div class="container_title">
+      <img src="arrow-back-outline.svg" class="arrow-back" id="arrow_variability">
+      <h1 class="title">Variabilidad</h1>
+    </div>
+    <div class="container_numbers_combinatorial">
+      <input type="number" class="input-combinatorial input" id="input-variability_N" placeholder="Numero N" />
+      <input type="number" class="input-combinatorial input" id="input-variability_K" placeholder="Numero K" />
+    </div>
+    <button class="btn" id="btn-variability">Calcular</button>
+
+    <div class="container_result">
+      <h1 id="result_variability" class="result"></h1>
+    </div> 
+</div>
+</div>
+
+   
+
+
+
+
+
+    <script src="variability.js"></script>
+    <script src="permutation.js"></script> 
+    <script src="combinatorial.js"></script> 
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetAlert.js"></script>
+ 
+  </body>
+</html>
