@@ -30,9 +30,9 @@ function getCombinatorial() {
     let aux = N - K;
 
     //COMPROBACIONES
-    if (N == "" || K == "" || N < 0 || K < 0 || N == K || K > N) {
-      alert('ingrese numeros validos ');
-    result_variability.innerHTML = "";
+    if (N <= K || N <= 1 || K >= N || K <= 0) {
+      alert("Ingrese un numero valido");
+      result_variability.innerHTML = "";
       //COMPROBACIONES
   
       //CALCULO
