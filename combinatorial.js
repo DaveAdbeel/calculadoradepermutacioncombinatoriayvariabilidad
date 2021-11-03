@@ -30,13 +30,11 @@ function getCombinatorial() {
     let aux = N - K;
 
     //COMPROBACIONES
-    if (N <= K || N <= 1 || K >= N || K <= 0) {
-      alert("Ingrese un numero valido");
-      result_variability.innerHTML = "";
+
       //COMPROBACIONES
   
       //CALCULO
-    } else {
+
       for (let index = N - 1; index > 1; index--) {
         N = N * index;
       }
@@ -54,5 +52,3 @@ function getCombinatorial() {
       }
 
     }
-  }
-  
