@@ -61,7 +61,7 @@ body {
   justify-content: center;
   justify-items: center;
   grid-template-rows: 0.7fr 1fr;
-  background: var(--secondary-color);
+  background:#fff;
 }
 /*INICIO*/
 
