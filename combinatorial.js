@@ -29,12 +29,6 @@ function getCombinatorial() {
     let K = number_K.value;
     let aux = N - K;
 
-    //COMPROBACIONES
-
-      //COMPROBACIONES
-  
-      //CALCULO
-
       for (let index = N - 1; index > 1; index--) {
         N = N * index;
       }
